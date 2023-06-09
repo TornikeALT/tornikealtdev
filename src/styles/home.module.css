@@ -1,3 +1,42 @@
 .pin {
   max-width: 15px;
 }
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 90rem;
+  transform: translate(-50%, -50%);
+}
+.home h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.home p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.projects_box {
+  margin-top: 3rem;
+}
+.projects_btn {
+  background-color: #facf0f;
+  color: black;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  padding: 13px 80px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  box-shadow: 0 0 0 0 black;
+}
+.projects_btn:hover {
+  transform: translateY(5px) translateX(5px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+.projects_btn:active {
+  transform: translateY(5px) translateX(5px);
+  box-shadow: 0 0 0 0 black;
+}

@@ -13,13 +13,13 @@ function App() {
         <section className="background_gradient">
           <Home />
         </section>
-        <section>
+        <section id="about">
           <About />
         </section>
-        <section>
+        <section id="projects">
           <Projects />
         </section>
-        <section>
+        <section id="contact">
           <Contact />
         </section>
       </main>

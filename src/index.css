@@ -11,10 +11,9 @@ body {
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
-main {
-  width: 100%;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -31,6 +30,6 @@ code {
   background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
   height: 100vh;
   max-height: 100rem;
-  min-height: 80rem;
+  /* min-height: 80rem; */
   text-align: center;
 }

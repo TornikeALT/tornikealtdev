@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+.my_Image {
+  max-width: 100px;
+  margin-right: 15px;
+  border-radius: 50px;
+}
+.image_container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.navigation li {
+  padding: 1rem;
+  font-family: 'Lilita One', cursive;
+}

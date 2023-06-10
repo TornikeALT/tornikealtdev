@@ -1,5 +1,6 @@
 import myimage from '../photo/toka4.jpg';
 import styles from '../styles/header.module.css';
+import hamburger from '../photo/icons/hamburger.png';
 
 function Header() {
   return (
@@ -16,20 +17,21 @@ function Header() {
         <nav>
           <ul className={styles.navigation}>
             <li>
-              <a href="./">HOME</a>
+              <a href="/">HOME</a>
             </li>
             <li>
-              <a href="./#about">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li>
-              <a href="./#projects">PROJECTS</a>
+              <a href="#projects">PROJECTS</a>
             </li>
             <li>
-              <a href="./#contact">CONTACT</a>
+              <a href="#contact">CONTACT</a>
             </li>
           </ul>
         </nav>
       </div>
+      <img src={hamburger} alt="" className={styles.hamburger} />
     </div>
   );
 }

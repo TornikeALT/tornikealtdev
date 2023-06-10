@@ -6,7 +6,7 @@
   text-align: center;
   /* max-width: 100rem; */
   margin: auto;
-  height: 100vh;
+  min-height: 100vh;
   padding-bottom: 10rem;
   background-color: #fafafa;
 }
@@ -60,4 +60,15 @@
 }
 .information_aboutme {
   max-width: 30rem;
+}
+@media only screen and (max-width: 799px) {
+  .yellow_brik_box {
+    margin-top: 10rem;
+  }
+  .skills {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10rem;
+  }
 }

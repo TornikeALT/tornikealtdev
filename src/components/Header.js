@@ -1,10 +1,19 @@
 import myimage from '../photo/toka4.jpg';
 import styles from '../styles/header.module.css';
 import hamburger from '../photo/icons/hamburger.png';
+import cancelIcon from '../photo/icons/cancel.png';
+
+import { useState } from 'react';
 
 function Header() {
+  const [show, setShow] = useState(false);
+
+  const handledropDown = () => {
+    setShow(show => !show);
+  };
+
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.image_container}>
         <img
           src={myimage}
@@ -31,8 +40,41 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <img src={hamburger} alt="" className={styles.hamburger} />
-    </div>
+      {show ? (
+        <img
+          src={cancelIcon}
+          alt="hamburger"
+          onClick={handledropDown}
+          className={styles.hamburger}
+        />
+      ) : (
+        <img
+          src={hamburger}
+          alt="hamburger"
+          onClick={handledropDown}
+          className={styles.hamburger}
+        />
+      )}
+
+      {show && (
+        <div className={styles.dropDown}>
+          <ul>
+            <li className={styles.lielbotborder}>
+              <a href="/">HOME</a>
+            </li>
+            <li className={styles.lielbotborder}>
+              <a href="#about">ABOUT</a>
+            </li>
+            <li className={styles.lielbotborder}>
+              <a href="#projects">PROJECTS</a>
+            </li>
+            <li className={styles.noborderLastLiel}>
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      )}
+    </header>
   );
 }
 

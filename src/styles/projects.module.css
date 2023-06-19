@@ -35,3 +35,35 @@
   justify-content: center;
   margin-bottom: 10rem;
 }
+/* Media Queries */
+@media only screen and (max-width: 647px) {
+  .yellowbrik {
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .yellowbrik {
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+  .porfolioContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .porfolioContent p {
+    max-width: 35rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  .img {
+    width: 100%;
+  }
+}

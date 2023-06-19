@@ -16,6 +16,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10rem;
+  width: 93%;
 }
 .skills h2 {
   text-align: left;
@@ -61,14 +62,29 @@
 .information_aboutme {
   max-width: 30rem;
 }
+/* Media Queries */
 @media only screen and (max-width: 799px) {
   .yellow_brik_box {
-    margin-top: 10rem;
+    margin-top: 4rem;
   }
   .skills {
     margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10rem;
+  }
+  .information_aboutme {
+    max-width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 462px) {
+  .yellowbrik {
+    top: 45%;
+  }
+}
+@media only screen and (max-width: 401px) {
+  .yellowbrik {
+    top: 40%;
   }
 }

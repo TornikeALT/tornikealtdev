@@ -18,7 +18,7 @@ function Projects() {
           <div>
             <img src={satesto} alt="" className={styles.img} />
           </div>
-          <div>
+          <div className={styles.porfolioContent}>
             <h3>DOPEFOLIO</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -32,7 +32,7 @@ function Projects() {
           <div>
             <img src={satesto} alt="" className={styles.img} />
           </div>
-          <div>
+          <div className={styles.porfolioContent}>
             <h3>DOPEFOLIO</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -46,7 +46,7 @@ function Projects() {
           <div>
             <img src={satesto} alt="" className={styles.img} />
           </div>
-          <div>
+          <div className={styles.porfolioContent}>
             <h3>DOPEFOLIO</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita

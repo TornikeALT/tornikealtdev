@@ -15,12 +15,14 @@ function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.image_container}>
-        <img
-          src={myimage}
-          alt="tornike white and black"
-          className={styles.my_Image}
-        />
-        <h2>TornikeDev</h2>
+        <div className={styles.headerLogo}>
+          <img
+            src={myimage}
+            alt="tornike white and black"
+            className={styles.my_Image}
+          />
+        </div>
+        <h2 className={styles.myName}>Tornike Altunashvili</h2>
       </div>
       <div>
         <nav>

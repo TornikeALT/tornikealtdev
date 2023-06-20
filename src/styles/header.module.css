@@ -1,13 +1,14 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  padding: 1rem 4rem;
   align-items: center;
   background-color: white;
   position: sticky;
   top: 0;
-  padding: 5px;
   z-index: 100;
+}
+.headerLogo {
 }
 .my_Image {
   max-width: 100px;
@@ -17,6 +18,11 @@
 .image_container {
   display: flex;
   align-items: center;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.image_container:hover {
+  color: #facf0f;
 }
 .navigation {
   display: flex;
@@ -67,15 +73,18 @@
   border-bottom: none;
 }
 /* HEADER MEDIA QUERIES */
-@media only screen and (max-width: 636px) {
+@media only screen and (max-width: 659px) {
   .hamburger {
     display: inline;
   }
   .navigation {
     display: none;
   }
+  .myName {
+    font-size: 1.2rem;
+  }
 }
-@media only screen and (min-width: 636px) {
+@media only screen and (min-width: 660px) {
   .dropDown {
     opacity: 0;
   }

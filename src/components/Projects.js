@@ -25,7 +25,13 @@ function Projects() {
               illo sapiente eos veniam reprehenderit quasi mollitia inventore
               dolor, doloribus odio!
             </p>
-            <button>LIVE DEMO</button>
+            <a
+              href="https://github.com/TornikeALT?tab=repositories"
+              target="blank"
+              className={styles.btn_project}
+            >
+              LIVE DEMO
+            </a>
           </div>
         </div>
         <div className={styles.project}>
@@ -39,7 +45,13 @@ function Projects() {
               illo sapiente eos veniam reprehenderit quasi mollitia inventore
               dolor, doloribus odio!
             </p>
-            <button>LIVE DEMO</button>
+            <a
+              href="https://github.com/TornikeALT?tab=repositories"
+              target="blank"
+              className={styles.btn_project}
+            >
+              LIVE DEMO
+            </a>
           </div>
         </div>
         <div className={styles.project}>
@@ -53,7 +65,13 @@ function Projects() {
               illo sapiente eos veniam reprehenderit quasi mollitia inventore
               dolor, doloribus odio!
             </p>
-            <button>LIVE DEMO</button>
+            <a
+              href="https://github.com/TornikeALT?tab=repositories"
+              target="blank"
+              className={styles.btn_project}
+            >
+              LIVE DEMO
+            </a>
           </div>
         </div>
       </div>

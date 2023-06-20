@@ -14,7 +14,7 @@
   height: 5px;
   width: 2rem;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, 1rem);
   border-radius: 5px;
@@ -35,19 +35,28 @@
   justify-content: center;
   margin-bottom: 10rem;
 }
+.btn_project {
+  background: #facf0f;
+  color: black;
+  padding: 0.8rem 4.5rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.btn_project:hover {
+  background: #facf0f;
+  color: black;
+  /* display: inline-block; */
+  font-weight: 700;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.porfolioContent p {
+  margin-bottom: 3rem;
+}
+
 /* Media Queries */
-@media only screen and (max-width: 647px) {
-  .yellowbrik {
-    top: 45%;
-  }
-}
-
-@media only screen and (max-width: 393px) {
-  .yellowbrik {
-    top: 40%;
-  }
-}
-
 @media only screen and (max-width: 900px) {
   .project {
     grid-template-columns: 1fr;
@@ -65,5 +74,27 @@
   }
   .img {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 647px) {
+  .yellowbrik {
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .yellowbrik {
+    top: 40%;
+  }
+}
+@media only screen and (max-width: 324px) {
+  .yellowbrik {
+    top: 36%;
+  }
+}
+
+@media only screen and (max-width: 195px) {
+  .yellowbrik {
+    top: 33%;
   }
 }

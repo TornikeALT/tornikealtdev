@@ -26,7 +26,7 @@ function Contact() {
                 <img src={linkedInIcon} alt="linkedin icon" />
               </a>
 
-              <a href="" target="blank">
+              <a href="https://github.com/TornikeALT" target="blank">
                 <img src={githubIcon} alt="github icon" />
               </a>
             </div>

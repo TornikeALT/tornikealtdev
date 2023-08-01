@@ -18,24 +18,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .background_gradient {
   background: #ada996;
-  background: -webkit-linear-gradient(
-    to right,
-    #eaeaea,
-    #dbdbdb,
-    #f2f2f2,
-    #ada996
-  );
+  background: -webkit-linear-gradient(to right,
+      #eaeaea,
+      #dbdbdb,
+      #f2f2f2,
+      #ada996);
   background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
   height: 100vh;
   max-height: 100rem;
   /* min-height: 80rem; */
   text-align: center;
 }
+
 #projects {
   padding: 10rem 0;
+  background-color: #f9f9f9;
 }
+
 /* Media Queries */
 @media only screen and (max-width: 600px) {
   #projects {

@@ -1,5 +1,9 @@
 import styles from '../styles/projects.module.css';
 import satesto from '../photo/satesto.jpeg';
+import tbilisiRent from '../photo/teest.png'
+import imafake from '../photo/fake.png'
+
+
 
 function Projects() {
   return (
@@ -13,20 +17,18 @@ function Projects() {
         </h3>
         <h3>Each project is unique peace of development</h3>
       </div>
-      <div className="projects_box">
+      <div className={styles.projects_box}>
         <div className={styles.project}>
           <div>
-            <img src={satesto} alt="" className={styles.img} />
+            <img src={tbilisiRent} alt="" className={styles.img} />
           </div>
           <div className={styles.porfolioContent}>
-            <h3>DOPEFOLIO</h3>
+            <h3>Tbilisi Rent</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              illo sapiente eos veniam reprehenderit quasi mollitia inventore
-              dolor, doloribus odio!
+              Welcome to Tbilisi Rent, your go-to destination for hassle-free car rentals! Discover the joy of exploration with our wide selection of well-maintained vehicles, perfectly suited to meet your travel needs. From compact cars for city cruising to spacious SUVs for family trips, we've got you covered. With easy online booking, flexible rental options, and top-notch customer support, your journey begins with Tbilisi Rent. Hit the road with confidence and start your adventure today!
             </p>
             <a
-              href="https://github.com/TornikeALT?tab=repositories"
+              href="https://tbilisi-rent.netlify.app"
               target="blank"
               className={styles.btn_project}
             >
@@ -36,17 +38,15 @@ function Projects() {
         </div>
         <div className={styles.project}>
           <div>
-            <img src={satesto} alt="" className={styles.img} />
+            <img src={imafake} alt="" className={styles.img} />
           </div>
           <div className={styles.porfolioContent}>
-            <h3>DOPEFOLIO</h3>
+            <h3>Fake store</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              illo sapiente eos veniam reprehenderit quasi mollitia inventore
-              dolor, doloribus odio!
+              Welcome to Fake store , your one-stop online shop for the latest in fashion and technology. We offer a wide selection of women's and men's clothing, ranging from casual streetwear to elegant formal attire. Our electronics department showcases the newest smartphones, laptops, and gadgets to keep you at the cutting edge of technology. Additionally, explore our exquisite jewelry collection for the perfect finishing touches to your look. With a seamless shopping experience, secure transactions, and prompt delivery, Fake store is here to cater to all your fashion and tech needs. Happy shopping!
             </p>
             <a
-              href="https://github.com/TornikeALT?tab=repositories"
+              href="https://imafake-store.netlify.app"
               target="blank"
               className={styles.btn_project}
             >

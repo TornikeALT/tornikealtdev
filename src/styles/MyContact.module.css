@@ -1,0 +1,46 @@
+.container {
+    max-width: 1200px;
+    margin: 5rem auto;
+}
+
+.location_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.locationAndMail {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social_icon_bg {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+
+}
+
+.social_icon_bg svg {
+    padding: 8px;
+}
+
+.finger_contact {
+    font-size: 1rem;
+    color: #facf0f;
+}
+
+.finger {
+    font-size: 1.6rem;
+    font-weight: bold;
+}

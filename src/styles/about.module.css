@@ -3,12 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  /* max-width: 100rem; */
   margin: auto;
   min-height: 100vh;
-  padding-bottom: 10rem;
-  background-color: #fafafa;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutMe {
+  text-align: center;
 }
 
 .skills {
@@ -18,28 +20,34 @@
   grid-gap: 10rem;
   width: 93%;
 }
+
 .skills h2 {
   text-align: left;
 }
+
 .skills p {
   text-align: left;
 }
+
 .skill {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .skill_box {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
   max-width: 35rem;
 }
+
 .my_skills {
   text-align: left;
   padding-left: 0.7rem;
 }
+
 .yellowbrik {
   background-color: #facf0f;
   height: 5px;
@@ -50,29 +58,50 @@
   transform: translate(-50%, 1rem);
   border-radius: 5px;
 }
+
 .information {
   margin-top: 1rem;
 }
+
 .aboutMe {
   font-size: 35px;
 }
+
 .yellow_brik_box {
   position: relative;
 }
+
 .information_aboutme {
   max-width: 30rem;
 }
+
+.information_aboutme h4 {
+  text-align: left;
+}
+
+.information_aboutme ul {
+  padding: unset;
+}
+
+.information_aboutme li {
+  list-style-type: disc;
+  margin: 1rem;
+
+}
+
 /* Media Queries */
 @media only screen and (max-width: 799px) {
   .yellow_brik_box {
     margin-top: 4rem;
   }
+
   .skills {
     margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10rem;
   }
+
   .information_aboutme {
     max-width: fit-content;
   }
@@ -83,6 +112,7 @@
     top: 45%;
   }
 }
+
 @media only screen and (max-width: 401px) {
   .yellowbrik {
     top: 40%;

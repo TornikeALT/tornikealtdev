@@ -34,6 +34,9 @@
 .img {
   width: 90%;
   object-fit: cover;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 30vh;
 }
 
 .project {
@@ -44,9 +47,9 @@
   background-color: white;
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-  border: 1px solid black;
   border-radius: 2rem;
   max-width: 80rem;
+  margin: 1rem;
 }
 
 .btn_project {
@@ -61,14 +64,33 @@
 .btn_project:hover {
   background: #facf0f;
   color: black;
-  /* display: inline-block; */
-  font-weight: 700;
+  font-weight: 600;
   transition: all 0.3s;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
+.porfolioContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.porfolioContent h3 {
+  font-size: 1.5rem;
+}
+
 .porfolioContent p {
   margin-bottom: 3rem;
+  color: #555;
+}
+
+.yellowbrik_wrapper {
+  text-align: center;
+}
+
+.yellowbrik_wrapper h3 {
+  color: #555;
 }
 
 /* Media Queries */

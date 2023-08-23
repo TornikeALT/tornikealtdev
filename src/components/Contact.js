@@ -19,10 +19,10 @@ function Contact() {
           <div>
             <h4>SOCIAL</h4>
             <div className={styles.icons}>
-              <a href="" target="blank">
+              <a href="/#" target="blank">
                 <img src={facebookIcon} alt="facebook icon" />
               </a>
-              <a href="" target="blank">
+              <a href="/#" target="blank">
                 <img src={linkedInIcon} alt="linkedin icon" />
               </a>
 
@@ -35,7 +35,7 @@ function Contact() {
         <div className={styles.lowerFooter}>
           <p>
             © Copyright 2023. Made By
-            <a href="#" target="blank">
+            <a href="/#" target="blank">
               Tornike Altunashvili
             </a>
           </p>

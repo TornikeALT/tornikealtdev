@@ -2,7 +2,7 @@ import styles from '../styles/projects.module.css';
 import satesto from '../photo/satesto.jpeg';
 import tbilisiRent from '../photo/teest.png'
 import imafake from '../photo/fake.png'
-
+import pirus from '../photo/pirus.png'
 
 
 function Projects() {
@@ -10,12 +10,14 @@ function Projects() {
     <div className={styles.container}>
       <div className={styles.projects_box}>
         <h2 className={styles.projects_title}>PROJECTS</h2>
-        <div className={styles.yellowbrik}></div>
-        <h3>
-          Here you will find personal projects, which i created with my own
-          studies.
-        </h3>
-        <h3>Each project is unique peace of development</h3>
+        <div className={styles.yellowbrik_wrapper}>
+          <div className={styles.yellowbrik}></div>
+          <h3>
+            Here you will find personal projects, which i created with my own
+            studies.
+          </h3>
+          <h3>Each project is unique peace of development</h3>
+        </div>
       </div>
       <div className={styles.projects_box}>
         <div className={styles.project}>
@@ -56,14 +58,12 @@ function Projects() {
         </div>
         <div className={styles.project}>
           <div>
-            <img src={satesto} alt="" className={styles.img} />
+            <img src={pirus} alt="" className={styles.img} />
           </div>
           <div className={styles.porfolioContent}>
-            <h3>DOPEFOLIO</h3>
+            <h3>PIRUS</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              illo sapiente eos veniam reprehenderit quasi mollitia inventore
-              dolor, doloribus odio!
+              "At PIRUS, we're passionate about the digital realm's boundless possibilities. With a dedicated team of creative visionaries and technical experts, we specialize in crafting tailored digital solutions that elevate your brand's online presence. From responsive web design and development to data-driven digital marketing strategies, we're committed to driving your success in the digital landscape. Let us transform your ideas into a compelling digital reality, ensuring your brand stands out in the crowded online world."
             </p>
             <a
               href="https://github.com/TornikeALT?tab=repositories"

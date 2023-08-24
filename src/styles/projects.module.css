@@ -25,7 +25,7 @@
 .projects_box {
   position: relative;
   padding-top: 1rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,6 +50,7 @@
   border-radius: 2rem;
   max-width: 80rem;
   margin: 1rem;
+  gap: 1rem;
 }
 
 .btn_project {
@@ -93,6 +94,36 @@
   color: #555;
 }
 
+.image_container {
+  overflow: hidden;
+  position: relative;
+  width: 650px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.image_scroll {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  transition: transform 5s ease;
+
+}
+
+.image_scroll:hover {
+  transform: translateY(-75%);
+}
+
+.image_scroll img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
 /* Media Queries */
 @media only screen and (max-width: 900px) {
   .project {
@@ -116,6 +147,17 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width:1100px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  .image_container {
+    width: 100%;
+  }
+}
+
 
 @media only screen and (max-width: 647px) {
   .yellowbrik {

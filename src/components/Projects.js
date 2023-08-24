@@ -1,8 +1,7 @@
 import styles from '../styles/projects.module.css';
-import satesto from '../photo/satesto.jpeg';
-import tbilisiRent from '../photo/teest.png'
-import imafake from '../photo/fake.png'
-import pirus from '../photo/pirus.png'
+import fakestore from '../photo/fakestore.jpg'
+import tbilisiRent from '../photo/tbilisirent.jpg'
+import pirus from '../photo/pirus-image.jpg'
 
 
 function Projects() {
@@ -21,8 +20,10 @@ function Projects() {
       </div>
       <div className={styles.projects_box}>
         <div className={styles.project}>
-          <div>
-            <img src={tbilisiRent} alt="" className={styles.img} />
+          <div className={styles.image_container}>
+            <div className={styles.image_scroll}>
+              <img src={tbilisiRent} alt="tbilisi rent" />
+            </div>
           </div>
           <div className={styles.porfolioContent}>
             <h3>Tbilisi Rent</h3>
@@ -39,8 +40,10 @@ function Projects() {
           </div>
         </div>
         <div className={styles.project}>
-          <div>
-            <img src={imafake} alt="" className={styles.img} />
+          <div className={styles.image_container}>
+            <div className={styles.image_scroll}>
+              <img src={fakestore} alt="fake store" />
+            </div>
           </div>
           <div className={styles.porfolioContent}>
             <h3>Fake store</h3>
@@ -57,8 +60,10 @@ function Projects() {
           </div>
         </div>
         <div className={styles.project}>
-          <div>
-            <img src={pirus} alt="" className={styles.img} />
+          <div className={styles.image_container}>
+            <div className={styles.image_scroll}>
+              <img src={pirus} alt="pirus" />
+            </div>
           </div>
           <div className={styles.porfolioContent}>
             <h3>PIRUS</h3>
@@ -66,7 +71,7 @@ function Projects() {
               "At PIRUS, we're passionate about the digital realm's boundless possibilities. With a dedicated team of creative visionaries and technical experts, we specialize in crafting tailored digital solutions that elevate your brand's online presence. From responsive web design and development to data-driven digital marketing strategies, we're committed to driving your success in the digital landscape. Let us transform your ideas into a compelling digital reality, ensuring your brand stands out in the crowded online world."
             </p>
             <a
-              href="https://github.com/TornikeALT?tab=repositories"
+              href="https://pirus.netlify.app"
               target="blank"
               className={styles.btn_project}
             >

@@ -1,6 +1,5 @@
 import styles from '../styles/contact.module.css';
 import linkedInIcon from '../photo/social-icons/linkedin.png';
-import facebookIcon from '../photo/social-icons/facebook.png';
 import githubIcon from '../photo/social-icons/github.png';
 
 function Contact() {
@@ -19,13 +18,9 @@ function Contact() {
           <div>
             <h4>SOCIAL</h4>
             <div className={styles.icons}>
-              <a href="/#" target="blank">
-                <img src={facebookIcon} alt="facebook icon" />
-              </a>
-              <a href="/#" target="blank">
+              <a href="https://www.linkedin.com/in/tornike-altunashvili-204a67246/" target="blank">
                 <img src={linkedInIcon} alt="linkedin icon" />
               </a>
-
               <a href="https://github.com/TornikeALT" target="blank">
                 <img src={githubIcon} alt="github icon" />
               </a>

@@ -8,32 +8,36 @@
   top: 0;
   z-index: 100;
 }
-.headerLogo {
-}
+
 .my_Image {
   max-width: 100px;
   margin-right: 15px;
   border-radius: 50px;
 }
+
 .image_container {
   display: flex;
   align-items: center;
   transition: color 0.3s;
   cursor: pointer;
 }
+
 .image_container:hover {
   color: #facf0f;
 }
+
 .navigation {
   display: flex;
 }
+
 .navigation li {
   padding: 1rem;
-  font-family: 'Lilita One', cursive;
 }
+
 .navigation a {
   transition: color 0.3s;
 }
+
 .navigation a:hover {
   color: #facf0f;
 }
@@ -41,6 +45,7 @@
 .hamburger {
   display: none;
 }
+
 .dropDown {
   /* opacity: 0; */
   position: absolute;
@@ -52,46 +57,58 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: all 0.3s;
 }
+
 .dropDown a {
   transition: color 0.3s;
 }
+
 .dropDown a:hover {
   color: #facf0f;
 }
+
 .dropDown li {
   padding: 1rem 0;
 }
+
 .lielbotborder {
   border-bottom: 1px solid rgb(237, 229, 229);
 }
+
 .dropDown a {
   padding: 0 1.3rem;
   letter-spacing: 2px;
   cursor: pointer;
 }
+
 .noborderLastLiel {
   border-bottom: none;
 }
+
 /* HEADER MEDIA QUERIES */
 @media only screen and (max-width: 659px) {
   .hamburger {
     display: inline;
   }
+
   .navigation {
     display: none;
   }
+
   .myName {
     font-size: 1.2rem;
   }
 }
+
 @media only screen and (min-width: 660px) {
   .dropDown {
     opacity: 0;
   }
+
   .hamburger {
     display: none;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .my_Image {
     max-width: 70px;

@@ -21,6 +21,14 @@
   padding-right: 1rem;
 }
 
+.icons img {
+  transition: all ease 0.2s;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+
 .lowerFooter {
   text-align: center;
   padding: 3rem 0;

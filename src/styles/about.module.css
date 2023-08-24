@@ -90,7 +90,16 @@
 }
 
 /* Media Queries */
-@media only screen and (max-width: 799px) {
+
+@media only screen and (max-width:861px) {
+  .about_container {
+    padding-top: 5.5rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
   .yellow_brik_box {
     margin-top: 4rem;
   }
@@ -104,6 +113,10 @@
 
   .information_aboutme {
     max-width: fit-content;
+  }
+
+  .skills {
+    gap: 2rem;
   }
 }
 

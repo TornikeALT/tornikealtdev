@@ -56,7 +56,7 @@
 .btn_project {
   background: #facf0f;
   color: black;
-  padding: 0.8rem 4.5rem;
+  padding: 0.8rem 1.6rem;
   font-size: 1.3rem;
   border-radius: 5px;
   font-weight: 400;
@@ -74,20 +74,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 12px;
   align-items: flex-start;
 }
 
 .porfolioContent h3 {
   font-size: 1.5rem;
+  margin: unset;
 }
 
 .porfolioContent p {
-  margin-bottom: 3rem;
   color: #555;
 }
 
 .yellowbrik_wrapper {
   text-align: center;
+  padding: 10px;
 }
 
 .yellowbrik_wrapper h3 {
@@ -119,7 +121,17 @@
   height: auto;
 }
 
+.build_with_wrapper {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
 
+.build_with {
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  ;
+}
 
 
 
@@ -180,5 +192,15 @@
 @media only screen and (max-width: 195px) {
   .yellowbrik {
     top: 33%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .image_container {
+    height: 320px;
+  }
+
+  .btn_project {
+    font-size: unset;
   }
 }

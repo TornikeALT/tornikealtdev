@@ -4,7 +4,6 @@ import css from '../photo/icons/css.png';
 import js from '../photo/icons/js.png';
 import reactIcon from '../photo/icons/react.png';
 import gitIcon from '../photo/icons/git.png';
-import gitHubIcon from '../photo/icons/github.png';
 import graphQlIcon from '../photo/icons/graphql.png';
 import reduxIcon from '../photo/icons/redux.png';
 import tailwindIcon from '../photo/icons/tailwind.png';
@@ -65,10 +64,6 @@ function About() {
             <div className={styles.skill}>
               <img src={tailwindIcon} alt="tailwind" />
               <span>TAILWIND</span>
-            </div>
-            <div className={styles.skill}>
-              <img src={gitHubIcon} alt="github" />
-              <span>GITHUB</span>
             </div>
             <div className={styles.skill}>
               <img src={graphQlIcon} alt="graphql" />

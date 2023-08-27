@@ -30,6 +30,10 @@ function Projects() {
             <p>
               Welcome to Tbilisi Rent, your go-to destination for hassle-free car rentals! Discover the joy of exploration with our wide selection of well-maintained vehicles, perfectly suited to meet your travel needs. From compact cars for city cruising to spacious SUVs for family trips, we've got you covered. With easy online booking, flexible rental options, and top-notch customer support, your journey begins with Tbilisi Rent. Hit the road with confidence and start your adventure today!
             </p>
+            <div className={styles.build_with_wrapper}>
+              <div className={styles.build_with}>React</div>
+              <div className={styles.build_with}>Tailwind CSS</div>
+            </div>
             <a
               href="https://tbilisi-rent.netlify.app"
               target="blank"
@@ -48,8 +52,12 @@ function Projects() {
           <div className={styles.porfolioContent}>
             <h3>Fake store</h3>
             <p>
-              Welcome to Fake store , your one-stop online shop for the latest in fashion and technology. We offer a wide selection of women's and men's clothing, ranging from casual streetwear to elegant formal attire. Our electronics department showcases the newest smartphones, laptops, and gadgets to keep you at the cutting edge of technology. Additionally, explore our exquisite jewelry collection for the perfect finishing touches to your look. With a seamless shopping experience, secure transactions, and prompt delivery, Fake store is here to cater to all your fashion and tech needs. Happy shopping!
+              Welcome to Fake Store, your premier online shopping destination. Discover the latest fashion trends for both men and women, from casual to formal wear. Explore our cutting-edge electronics department featuring smartphones, laptops, and gadgets. Don't miss our stunning jewelry collection. Enjoy secure shopping and fast delivery. Happy shopping!
             </p>
+            <div className={styles.build_with_wrapper}>
+              <div className={styles.build_with}>React</div>
+              <div className={styles.build_with}>CSS</div>
+            </div>
             <a
               href="https://imafake-store.netlify.app"
               target="blank"
@@ -70,6 +78,10 @@ function Projects() {
             <p>
               "At PIRUS, we're passionate about the digital realm's boundless possibilities. With a dedicated team of creative visionaries and technical experts, we specialize in crafting tailored digital solutions that elevate your brand's online presence. From responsive web design and development to data-driven digital marketing strategies, we're committed to driving your success in the digital landscape. Let us transform your ideas into a compelling digital reality, ensuring your brand stands out in the crowded online world."
             </p>
+            <div className={styles.build_with_wrapper}>
+              <div className={styles.build_with}>React</div>
+              <div className={styles.build_with}>CSS</div>
+            </div>
             <a
               href="https://pirus.netlify.app"
               target="blank"

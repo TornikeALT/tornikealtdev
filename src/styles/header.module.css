@@ -1,12 +1,13 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 4rem;
+  padding: 1rem;
   align-items: center;
   background-color: white;
   position: sticky;
   top: 0;
   z-index: 100;
+  gap: 12px;
 }
 
 .my_Image {
@@ -84,7 +85,15 @@
   border-bottom: none;
 }
 
-/* HEADER MEDIA QUERIES */
+/* MEDIA QUERIES */
+@media only screen and (max-width: 992px) {
+  .my_Image {
+    max-width: 70px;
+    margin-right: 10px;
+    border-radius: 40px;
+  }
+}
+
 @media only screen and (max-width: 659px) {
   .hamburger {
     display: inline;
@@ -109,10 +118,16 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 365px) {
+  .myName {
+    font-size: 0.8rem;
+  }
+
+  .hamburger {
+    width: 30px;
+  }
+
   .my_Image {
-    max-width: 70px;
-    margin-right: 10px;
-    border-radius: 40px;
+    width: 35px;
   }
 }

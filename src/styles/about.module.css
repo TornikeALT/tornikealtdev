@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
   min-height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
@@ -69,6 +68,7 @@
 
 .yellow_brik_box {
   position: relative;
+  padding: 12px
 }
 
 .information_aboutme {
@@ -129,5 +129,11 @@
 @media only screen and (max-width: 401px) {
   .yellowbrik {
     top: 40%;
+  }
+}
+
+@media only screen and (max-width: 255px) {
+  .yellowbrik {
+    top: 35%;
   }
 }

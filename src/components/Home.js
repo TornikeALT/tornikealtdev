@@ -22,10 +22,10 @@ function Home() {
 
       </div>
       <div className={styles.side_social_icons}>
-        <a href="https://github.com/TornikeALT?tab=repositories" target='blank'>
+        <a href="https://github.com/TornikeALT" target='blank'>
           <FaGithub size={50} color='black' />
         </a>
-        <a href="https://github.com/TornikeALT?tab=repositories" target='blank'>
+        <a href="https://www.linkedin.com/in/tornike-altunashvili-204a67246/" target='blank'>
           <FaLinkedin size={50} color='black' />
         </a>
       </div>
